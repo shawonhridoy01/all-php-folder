@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.dropdown-item{
+    border-top: 2px solid red;
+    padding: 10px 10px;
+}
+.dropdown-item:hover{
+    background-color: red;
+    color: white;
+}
+.nav-item{
+
+    font-weight: bold !important;
+    border-right: 2px solid white !important ;
+    padding: 0px 20px;
+}
+.nav-item:last-child{
+    border-right: 0px solid white !important ;
+}
+.nav-link{
+    color: white !important;
+
+}
+.navbar-bg{
+    background-color: darkblue;
+}
+.course-btn{
+    padding: 10px 30px !important;
+    font-weight: bold;
+}
+
+.card-shadow{
+    box-shadow: 0 2px 9px 0 rgb(0,0,0/10%);
+    border-radius: 5px;
+}
+
+.category-heading{
+    padding: 10px 12px;
+    border-left: 6px solid #000;
+    background-color: #ddd;
+}
+
+.post-heading{
+    font-size: 25px;
+    color: #000;
+}
+
+.underline{
+
+    margin-bottom: 20px;
+    position: relative;
+}
+.underline::after{
+    content: '';
+    position: absolute;
+    top: 110%;
+    left: 0;
+    height: 3px;
+    width: 18%;
+    background-color: red;
+    text-align: left;
+
+
+
+}
+
+.about-text{
+    font-size: 16px !important;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.about-right{
+    background-color: darkblue;
+    color: white;
+    justify-content: center;
+    padding: 30px 10px;
+}
